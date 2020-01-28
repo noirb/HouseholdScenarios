@@ -1,0 +1,160 @@
+fileFormatVersion: 2
+guid: fd83d441d83d0314fa2a8c1dafc42cd8
+timeCreated: 1475560191
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: wok_01
+    100004: wok_01.001
+    100006: wok_01.002
+    100008: wok_01.003
+    100010: wok_01.004
+    100012: wok_01.005
+    100014: wok_01.006
+    100016: wok_01.007
+    100018: wok_01.009
+    100020: wok_01.010
+    100022: wok_01.011
+    100024: wok_01.012
+    100026: wok_01.013
+    100028: wok_01.008
+    400000: //RootNode
+    400002: wok_01
+    400004: wok_01.001
+    400006: wok_01.002
+    400008: wok_01.003
+    400010: wok_01.004
+    400012: wok_01.005
+    400014: wok_01.006
+    400016: wok_01.007
+    400018: wok_01.009
+    400020: wok_01.010
+    400022: wok_01.011
+    400024: wok_01.012
+    400026: wok_01.013
+    400028: wok_01.008
+    2300000: //RootNode
+    2300002: wok_01
+    2300004: wok_01.001
+    2300006: wok_01.002
+    2300008: wok_01.003
+    2300010: wok_01.004
+    2300012: wok_01.005
+    2300014: wok_01.006
+    2300016: wok_01.007
+    2300018: wok_01.009
+    2300020: wok_01.010
+    2300022: wok_01.011
+    2300024: wok_01.012
+    2300026: wok_01.013
+    2300028: wok_01.008
+    3300000: //RootNode
+    3300002: wok_01
+    3300004: wok_01.001
+    3300006: wok_01.002
+    3300008: wok_01.003
+    3300010: wok_01.004
+    3300012: wok_01.005
+    3300014: wok_01.006
+    3300016: wok_01.007
+    3300018: wok_01.009
+    3300020: wok_01.010
+    3300022: wok_01.011
+    3300024: wok_01.012
+    3300026: wok_01.013
+    3300028: wok_01.008
+    4300000: wok_01
+    4300002: wok_01.013
+    4300004: wok_01.012
+    4300006: wok_01.011
+    4300008: wok_01.010
+    4300010: wok_01.009
+    4300012: wok_01.007
+    4300014: wok_01.006
+    4300016: wok_01.005
+    4300018: wok_01.004
+    4300020: wok_01.003
+    4300022: wok_01.002
+    4300024: wok_01.001
+    4300026: wok_01.008
+    6400000: //RootNode
+    6400002: wok_01
+    6400004: wok_01.001
+    6400006: wok_01.002
+    6400008: wok_01.003
+    6400010: wok_01.004
+    6400012: wok_01.005
+    6400014: wok_01.006
+    6400016: wok_01.007
+    6400018: wok_01.009
+    6400020: wok_01.010
+    6400022: wok_01.011
+    6400024: wok_01.012
+    6400026: wok_01.013
+    6400028: wok_01.008
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

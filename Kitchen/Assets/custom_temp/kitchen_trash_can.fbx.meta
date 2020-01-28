@@ -1,0 +1,127 @@
+fileFormatVersion: 2
+guid: b738b738affb5af4a9071e1df7c315ff
+timeCreated: 1475555366
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bean_01
+    100002: bean_01.001
+    100004: Camera
+    100006: faucet_01
+    100008: hotPlates_01
+    100010: kitchen_01
+    100012: //RootNode
+    100014: Lamp
+    100016: oven_01
+    100018: plug_01
+    100020: plug_02
+    100022: trash_can
+    100024: trash_can_lid
+    400000: bean_01
+    400002: bean_01.001
+    400004: Camera
+    400006: faucet_01
+    400008: hotPlates_01
+    400010: kitchen_01
+    400012: //RootNode
+    400014: Lamp
+    400016: oven_01
+    400018: plug_01
+    400020: plug_02
+    400022: trash_can
+    400024: trash_can_lid
+    2300000: bean_01
+    2300002: bean_01.001
+    2300004: faucet_01
+    2300006: hotPlates_01
+    2300008: kitchen_01
+    2300010: oven_01
+    2300012: plug_01
+    2300014: plug_02
+    2300016: trash_can
+    2300018: trash_can_lid
+    3300000: bean_01
+    3300002: bean_01.001
+    3300004: faucet_01
+    3300006: hotPlates_01
+    3300008: kitchen_01
+    3300010: oven_01
+    3300012: plug_01
+    3300014: plug_02
+    3300016: trash_can
+    3300018: trash_can_lid
+    4300000: bean_01.001
+    4300002: bean_01
+    4300004: plug_02
+    4300006: kitchen_01
+    4300008: oven_01
+    4300010: plug_01
+    4300012: faucet_01
+    4300014: hotPlates_01
+    4300016: trash_can_lid
+    4300018: trash_can
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

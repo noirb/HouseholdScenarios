@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 80440e08c3ac6414d8d26a627dacf712
+timeCreated: 1481101330
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: EthanBody
+    100004: EthanLeftHand
+    100006: EthanLeftHandIndex1
+    100008: EthanLeftHandIndex2
+    100010: EthanLeftHandIndex3
+    100012: EthanLeftHandIndex4
+    100014: EthanLeftHandMiddle1
+    100016: EthanLeftHandMiddle2
+    100018: EthanLeftHandMiddle3
+    100020: EthanLeftHandMiddle4
+    100022: EthanLeftHandPinky1
+    100024: EthanLeftHandPinky2
+    100026: EthanLeftHandPinky3
+    100028: EthanLeftHandPinky4
+    100030: EthanLeftHandRing1
+    100032: EthanLeftHandRing2
+    100034: EthanLeftHandRing3
+    100036: EthanLeftHandRing4
+    100038: EthanLeftHandThumb1
+    100040: EthanLeftHandThumb2
+    100042: EthanLeftHandThumb3
+    100044: EthanLeftHandThumb4
+    100046: EthanRightHand
+    100048: EthanRightHandIndex1
+    100050: EthanRightHandIndex2
+    100052: EthanRightHandIndex3
+    100054: EthanRightHandIndex4
+    100056: EthanRightHandMiddle1
+    100058: EthanRightHandMiddle2
+    100060: EthanRightHandMiddle3
+    100062: EthanRightHandMiddle4
+    100064: EthanRightHandPinky1
+    100066: EthanRightHandPinky2
+    100068: EthanRightHandPinky3
+    100070: EthanRightHandPinky4
+    100072: EthanRightHandRing1
+    100074: EthanRightHandRing2
+    100076: EthanRightHandRing3
+    100078: EthanRightHandRing4
+    100080: EthanRightHandThumb1
+    100082: EthanRightHandThumb2
+    100084: EthanRightHandThumb3
+    100086: EthanRightHandThumb4
+    100088: EthanSkeleton
+    100090: Ethan_LH_Body
+    100092: Ethan_LH_Skeleton
+    100094: Ethan_RH_Body
+    100096: Ethan_RH_Skeleton
+    400000: //RootNode
+    400002: EthanBody
+    400004: EthanLeftHand
+    400006: EthanLeftHandIndex1
+    400008: EthanLeftHandIndex2
+    400010: EthanLeftHandIndex3
+    400012: EthanLeftHandIndex4
+    400014: EthanLeftHandMiddle1
+    400016: EthanLeftHandMiddle2
+    400018: EthanLeftHandMiddle3
+    400020: EthanLeftHandMiddle4
+    400022: EthanLeftHandPinky1
+    400024: EthanLeftHandPinky2
+    400026: EthanLeftHandPinky3
+    400028: EthanLeftHandPinky4
+    400030: EthanLeftHandRing1
+    400032: EthanLeftHandRing2
+    400034: EthanLeftHandRing3
+    400036: EthanLeftHandRing4
+    400038: EthanLeftHandThumb1
+    400040: EthanLeftHandThumb2
+    400042: EthanLeftHandThumb3
+    400044: EthanLeftHandThumb4
+    400046: EthanRightHand
+    400048: EthanRightHandIndex1
+    400050: EthanRightHandIndex2
+    400052: EthanRightHandIndex3
+    400054: EthanRightHandIndex4
+    400056: EthanRightHandMiddle1
+    400058: EthanRightHandMiddle2
+    400060: EthanRightHandMiddle3
+    400062: EthanRightHandMiddle4
+    400064: EthanRightHandPinky1
+    400066: EthanRightHandPinky2
+    400068: EthanRightHandPinky3
+    400070: EthanRightHandPinky4
+    400072: EthanRightHandRing1
+    400074: EthanRightHandRing2
+    400076: EthanRightHandRing3
+    400078: EthanRightHandRing4
+    400080: EthanRightHandThumb1
+    400082: EthanRightHandThumb2
+    400084: EthanRightHandThumb3
+    400086: EthanRightHandThumb4
+    400088: EthanSkeleton
+    400090: Ethan_LH_Body
+    400092: Ethan_LH_Skeleton
+    400094: Ethan_RH_Body
+    400096: Ethan_RH_Skeleton
+    4300000: EthanBody
+    4300002: Ethan_RH_Body
+    4300004: Ethan_LH_Body
+    7400000: Default Take
+    7400002: grasp
+    7400004: Idle
+    7400006: point
+    7400008: grasp_R
+    7400010: idle_L
+    7400012: Idle_R
+    7400014: point_R
+    7400016: grasp_L
+    7400018: point_L
+    9500000: //RootNode
+    13700000: EthanBody
+    13700002: Ethan_LH_Body
+    13700004: Ethan_RH_Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

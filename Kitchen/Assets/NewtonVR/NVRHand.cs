@@ -1,0 +1,707 @@
+﻿using UnityEngine;
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.Linq;
+
+namespace NewtonVR
+{
+    public class NVRHand : MonoBehaviour
+    {
+        public NVRPlayer player = null;
+
+        [Space]
+
+        public bool HoldButtonDown = false;
+        public bool HoldButtonUp = false;
+        public bool HoldButtonPressed = false;
+        public float HoldButtonAxis = 0f;
+
+        [Space]
+
+        public bool UseButtonDown = false;
+        public bool UseButtonUp = false;
+        public bool UseButtonPressed = false;
+        public float UseButtonAxis = 0f;
+
+        [Space]
+
+        public NVRDriver Driver;
+
+        public Dictionary<NVRButtonID, NVRButtonInputs> Inputs;
+
+        [SerializeField]
+        private InteractionStyle CurrentInteractionStyle = InteractionStyle.GripDownToInteract;
+
+        public Rigidbody Rigidbody;
+
+        [Tooltip("If empty, will rely on the NVRDriver to provide models for rendering (e.g. SteamVR models from the Vive driver). Set your own model to override this.")]
+        public GameObject CustomModel;
+
+        [Tooltip("If you're using a custom model or if you just want custom physical colliders, stick the prefab for them here.")]
+        public GameObject CustomPhysicalColliders;
+
+        [Tooltip("If you want colliders on an unrelated object to act as hand colliders, add them here.")]
+        public NVRNotifier ExternalColliders;
+
+        [Tooltip("If you want interacting objects to be attached to a different object, add it here")]
+        public Transform interactionParent;
+
+        private VisibilityLevel CurrentVisibility = VisibilityLevel.Visible;
+        private bool VisibilityLocked = false;
+
+        private HandState CurrentHandState = HandState.Uninitialized;
+
+        private Dictionary<NVRInteractable, Dictionary<Collider, float>> CurrentlyHoveringOver;
+
+        public NVRInteractable CurrentlyInteracting;
+
+        private int EstimationSampleIndex;
+        private Vector3[] LastPositions;
+        private Quaternion[] LastRotations;
+        private float[] LastDeltas;
+        private int EstimationSamples = 5;
+
+        private NVRPhysicalController PhysicalController;
+
+        private Collider[] GhostColliders;
+        private Renderer[] GhostRenderers;
+
+        public NVRHand()
+        {
+            CurrentlyHoveringOver = new Dictionary<NVRInteractable, Dictionary<Collider, float>>();
+
+            Inputs = new Dictionary<NVRButtonID, NVRButtonInputs>();
+            System.Array buttonTypes = System.Enum.GetValues(typeof(NVRButtonID));
+            foreach (NVRButtonID buttonType in buttonTypes)
+            {
+                if (Inputs.ContainsKey(buttonType) == false)
+                {
+                    Inputs.Add(buttonType, new NVRButtonInputs());
+                }
+            }
+        }
+
+        public bool IsHovering
+        {
+            get
+            {
+                return CurrentlyHoveringOver.Any(kvp => kvp.Value.Count > 0);
+            }
+        }
+        public bool IsInteracting
+        {
+            get
+            {
+                return CurrentlyInteracting != null;
+            }
+        }
+
+        public int deviceIndex { get; private set; }
+        public void SetDeviceIndex(int index) { this.deviceIndex = index; }
+
+        protected virtual void Start()
+        {
+            LastPositions = new Vector3[EstimationSamples];
+            LastRotations = new Quaternion[EstimationSamples];
+            LastDeltas = new float[EstimationSamples];
+            EstimationSampleIndex = 0;
+
+            VisibilityLocked = false;
+
+            Driver.OnNewPoses += OnNewPosesApplied;
+        }
+
+        void OnDestroy()
+        {
+            if (ExternalColliders != null)
+            {
+                ExternalColliders.Unsubscribe(this);
+            }
+        }
+
+        public void InjectNewPoses()
+        {
+            OnNewPosesApplied();
+        }
+
+        private void OnNewPosesApplied()
+        {
+            if (CurrentlyInteracting != null)
+            {
+                CurrentlyInteracting.OnNewPosesApplied();
+            }
+        }
+
+        protected virtual void Update()
+        {
+            if (CurrentHandState == HandState.Uninitialized)
+                return;
+
+            // button states should be updated by NVRDriver each frame, we just read them here
+            HoldButtonPressed = Inputs[NVRButtonID.HoldButton].IsPressed;
+            HoldButtonDown    = Inputs[NVRButtonID.HoldButton].PressDown;
+            HoldButtonUp      = Inputs[NVRButtonID.HoldButton].PressUp;
+            HoldButtonAxis    = Inputs[NVRButtonID.HoldButton].SingleAxis;
+
+            UseButtonPressed  = Inputs[NVRButtonID.UseButton].IsPressed;
+            UseButtonDown     = Inputs[NVRButtonID.UseButton].PressDown;
+            UseButtonUp       = Inputs[NVRButtonID.UseButton].PressUp;
+            UseButtonAxis     = Inputs[NVRButtonID.UseButton].SingleAxis;
+
+            /// TODO: Firing an event here instead might be a better idea
+            if (HoldButtonDown)
+            {
+                ScenarioLogManager.Instance.LogEvent(this.gameObject, "HoldButtonDown");
+            }
+            else if (HoldButtonUp)
+            {
+                ScenarioLogManager.Instance.LogEvent(this.gameObject, "HoldButtonUp");
+            }
+            if (UseButtonDown)
+            {
+                ScenarioLogManager.Instance.LogEvent(this.gameObject, "UseButtonDown");
+            }
+            else if (UseButtonUp)
+            {
+                ScenarioLogManager.Instance.LogEvent(this.gameObject, "UseButtonUp");
+            }
+
+            if (CurrentInteractionStyle == InteractionStyle.GripDownToInteract)
+            {
+                if (HoldButtonUp == true)
+                {
+                    VisibilityLocked = false;
+                }
+
+                if (HoldButtonDown == true)
+                {
+                    if (CurrentlyInteracting == null)
+                    {
+                        PickupClosest();
+                    }
+                }
+                else if (HoldButtonUp == true && CurrentlyInteracting != null)
+                {
+                    EndInteraction(null);
+                }
+            }
+            else if (CurrentInteractionStyle == InteractionStyle.GripToggleToInteract)
+            {
+                if (HoldButtonDown == true)
+                {
+                    if (CurrentHandState == HandState.Idle)
+                    {
+                        PickupClosest();
+                        if (IsInteracting)
+                        {
+                            CurrentHandState = HandState.GripToggleOnInteracting;
+                        }
+                        else if (player.PhysicalHands == true)
+                        {
+                            CurrentHandState = HandState.GripToggleOnNotInteracting;
+                        }
+                    }
+                    else if (CurrentHandState == HandState.GripToggleOnInteracting)
+                    {
+                        CurrentHandState = HandState.Idle;
+                        VisibilityLocked = false;
+                        EndInteraction(null);
+                    }
+                    else if (CurrentHandState == HandState.GripToggleOnNotInteracting)
+                    {
+                        CurrentHandState = HandState.Idle;
+                        VisibilityLocked = false;
+                    }
+                }
+
+            }
+
+            if (IsInteracting == true)
+            {
+                CurrentlyInteracting.InteractingUpdate(this);
+            }
+            
+            UpdateVisibilityAndColliders();
+        }
+
+        public void TriggerHapticPulse(ushort durationMicroSec = 500)
+        {
+            Driver.TriggerHapticPulse(this, durationMicroSec);
+        }
+
+        public void LongHapticPulse(float seconds)
+        {
+            Driver.LongHapticPulse(this, seconds);
+        }
+
+        public void SetColliders(Collider[] newColliders)
+        {
+            GhostColliders = new Collider[newColliders.Length];
+            newColliders.CopyTo(GhostColliders, 0);
+
+            if (PhysicalController != null)
+            {
+                PhysicalController.SetColliders(newColliders);
+            }
+        }
+
+        private void UpdateVisibilityAndColliders()
+        {
+            if (player.PhysicalHands == true)
+            {
+                if (CurrentInteractionStyle == InteractionStyle.GripDownToInteract)
+                {
+                    if (HoldButtonPressed == true && IsInteracting == false)
+                    {
+                        if (CurrentHandState != HandState.GripDownNotInteracting && VisibilityLocked == false)
+                        {
+                            VisibilityLocked = true;
+                            SetVisibility(VisibilityLevel.Visible);
+                            CurrentHandState = HandState.GripDownNotInteracting;
+                        }
+                    }
+                    else if (HoldButtonDown == true && IsInteracting == true)
+                    {
+                        if (CurrentHandState != HandState.GripDownInteracting && VisibilityLocked == false)
+                        {
+                            VisibilityLocked = true;
+                            if (player.MakeControllerInvisibleOnInteraction == true)
+                            {
+                                SetVisibility(VisibilityLevel.Invisible);
+                            }
+                            else
+                            {
+                                SetVisibility(VisibilityLevel.Ghost);
+                            }
+                            CurrentHandState = HandState.GripDownInteracting;
+                        }
+                    }
+                    else if (IsInteracting == false)
+                    {
+                        if (CurrentHandState != HandState.Idle && VisibilityLocked == false)
+                        {
+                            SetVisibility(VisibilityLevel.Ghost);
+                            CurrentHandState = HandState.Idle;
+                        }
+                    }
+                }
+                else if (CurrentInteractionStyle == InteractionStyle.GripToggleToInteract)
+                {
+                    if (CurrentHandState == HandState.Idle)
+                    {
+                        if (VisibilityLocked == false && CurrentVisibility != VisibilityLevel.Ghost)
+                        {
+                            SetVisibility(VisibilityLevel.Ghost);
+                        }
+                        else
+                        {
+                            VisibilityLocked = false;
+                        }
+                    }
+                    else if (CurrentHandState == HandState.GripToggleOnInteracting)
+                    {
+                        if (VisibilityLocked == false)
+                        {
+                            VisibilityLocked = true;
+                            SetVisibility(VisibilityLevel.Ghost);
+                        }
+                    }
+                    else if (CurrentHandState == HandState.GripToggleOnNotInteracting)
+                    {
+                        if (VisibilityLocked == false)
+                        {
+                            VisibilityLocked = true;
+                            SetVisibility(VisibilityLevel.Visible);
+                        }
+                    }
+                }
+            }
+            else if (player.PhysicalHands == false && player.MakeControllerInvisibleOnInteraction == true)
+            {
+                if (IsInteracting == true)
+                {
+                    SetVisibility(VisibilityLevel.Invisible);
+                }
+                else if (IsInteracting == false)
+                {
+                    SetVisibility(VisibilityLevel.Ghost);
+                }
+            }
+        }
+
+        protected virtual void FixedUpdate()
+        {
+            LastPositions[EstimationSampleIndex] = this.transform.position;
+            LastRotations[EstimationSampleIndex] = this.transform.rotation;
+            LastDeltas[EstimationSampleIndex] = Time.fixedDeltaTime;
+            EstimationSampleIndex++;
+
+            if (EstimationSampleIndex >= LastPositions.Length)
+                EstimationSampleIndex = 0;
+
+            if (IsInteracting == false && IsHovering == true)
+            {
+                Driver.TriggerHapticPulse(this, 100);
+            }
+        }
+
+        public virtual void BeginInteraction(NVRInteractable interactable)
+        {
+            if (interactable.CanAttach == true)
+            {
+                if (interactable.AttachedHand != null)
+                {
+                    interactable.AttachedHand.EndInteraction(null);
+                }
+
+                CurrentlyInteracting = interactable;
+                CurrentlyInteracting.BeginInteraction(this);
+
+                // TODO: A more general event may be better
+                ScenarioLogManager.Instance.LogEvent(this.gameObject, "OnGrasp", CurrentlyInteracting.gameObject.name);
+            }
+        }
+
+        public virtual void EndInteraction(NVRInteractable item)
+        {
+            if (item != null && CurrentlyHoveringOver.ContainsKey(item) == true)
+                CurrentlyHoveringOver.Remove(item);
+
+            if (CurrentlyInteracting != null)
+            {
+                // TODO: A more general event may be better
+                ScenarioLogManager.Instance.LogEvent(this.gameObject, "OnRelease", CurrentlyInteracting.gameObject.name);
+
+                CurrentlyInteracting.EndInteraction();
+                CurrentlyInteracting = null;
+            }
+
+            if (CurrentInteractionStyle == InteractionStyle.GripToggleToInteract)
+            {
+                if (CurrentHandState != HandState.Idle)
+                {
+                    CurrentHandState = HandState.Idle;
+                }
+            }
+        }
+
+        private bool PickupClosest()
+        {
+            NVRInteractable closest = null;
+            float closestDistance = float.MaxValue;
+
+            foreach (var hovering in CurrentlyHoveringOver)
+            {
+                if (hovering.Key == null)
+                    continue;
+
+                float distance = Vector3.Distance(this.transform.position, hovering.Key.transform.position);
+                if (distance < closestDistance)
+                {
+                    closestDistance = distance;
+                    closest = hovering.Key;
+                }
+            }
+
+            if (closest != null)
+            {
+                BeginInteraction(closest);
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+        protected virtual void OnTriggerEnter(Collider collider)
+        {
+            OnTriggerEnterImpl(collider);
+        }
+
+        public virtual void OnOtherTriggerEnter(ref Collider collider)
+        {
+            OnTriggerEnterImpl(collider);
+        }
+
+        protected virtual void OnTriggerEnterImpl(Collider collider)
+        {
+            NVRInteractable interactable = NVRInteractables.GetInteractable(collider);
+            if (interactable == null || interactable.enabled == false)
+                return;
+
+            if (CurrentlyHoveringOver.ContainsKey(interactable) == false)
+                CurrentlyHoveringOver[interactable] = new Dictionary<Collider, float>();
+
+            if (CurrentlyHoveringOver[interactable].ContainsKey(collider) == false)
+                CurrentlyHoveringOver[interactable][collider] = Time.time;
+        }
+
+        protected virtual void OnTriggerStay(Collider collider)
+        {
+            OnTriggerStayImpl(collider);
+        }
+
+        public virtual void OnOtherTriggerStay(ref Collider collider)
+        {
+            OnTriggerStayImpl(collider);
+        }
+
+        protected virtual void OnTriggerStayImpl(Collider collider)
+        {
+            NVRInteractable interactable = NVRInteractables.GetInteractable(collider);
+            if (interactable == null || interactable.enabled == false)
+                return;
+
+            if (CurrentlyHoveringOver.ContainsKey(interactable) == false)
+                CurrentlyHoveringOver[interactable] = new Dictionary<Collider, float>();
+
+            if (CurrentlyHoveringOver[interactable].ContainsKey(collider) == false)
+                CurrentlyHoveringOver[interactable][collider] = Time.time;
+        }
+
+        protected virtual void OnTriggerExit(Collider collider)
+        {
+            OnTriggerExitImpl(collider);
+        }
+
+        public virtual void OnOtherTriggerExit(ref Collider collider)
+        {
+            OnTriggerExitImpl(collider);
+        }
+
+        protected virtual void OnTriggerExitImpl(Collider collider)
+        {
+            NVRInteractable interactable = NVRInteractables.GetInteractable(collider);
+            if (interactable == null)
+                return;
+
+            if (CurrentlyHoveringOver.ContainsKey(interactable) == true)
+            {
+                if (CurrentlyHoveringOver[interactable].ContainsKey(collider) == true)
+                {
+                    CurrentlyHoveringOver[interactable].Remove(collider);
+                    if (CurrentlyHoveringOver[interactable].Count == 0)
+                    {
+                        CurrentlyHoveringOver.Remove(interactable);
+                    }
+                }
+            }
+        }
+
+        protected virtual void OnEnable()
+        {
+            VisibilityLocked = false;
+        }
+
+        public void DoInitialize()
+        {
+            Rigidbody = this.GetComponent<Rigidbody>();
+            if (Rigidbody == null)
+                Rigidbody = this.gameObject.AddComponent<Rigidbody>();
+            Rigidbody.isKinematic = true;
+            Rigidbody.maxAngularVelocity = float.MaxValue;
+            Rigidbody.useGravity = false;
+
+            Collider[] Colliders = null;
+
+            if (CustomModel != null)
+            {
+                GameObject CustomModelObject = GameObject.Instantiate(CustomModel);
+                Colliders = CustomModelObject.GetComponentsInChildren<Collider>();
+                foreach (var collider in Colliders)
+                {
+                    collider.isTrigger = true;
+                }
+
+                CustomModelObject.transform.parent = this.transform;
+                CustomModelObject.transform.localScale = Vector3.one;
+                CustomModelObject.transform.localPosition = Vector3.zero;
+                CustomModelObject.transform.localRotation = Quaternion.identity;
+            }
+            else if (GhostColliders == null)
+            {
+                Colliders = this.GetComponentsInChildren<Collider>();
+            }
+
+            if (ExternalColliders != null)
+            {
+                ExternalColliders.Subscribe(this);
+            }
+
+            player.RegisterHand(this);
+
+            if (player.PhysicalHands == true)
+            {
+                bool InitialState = false;
+
+                if (PhysicalController != null)
+                {
+                    if (PhysicalController.State == true)
+                    {
+                        InitialState = true;
+                    }
+                    else
+                    {
+                        InitialState = false;
+                    }
+                    PhysicalController.Kill();
+                }
+
+                PhysicalController = this.gameObject.AddComponent<NVRPhysicalController>();
+                PhysicalController.Initialize(this, InitialState);
+
+                if (InitialState == true)
+                {
+                    ForceGhost();
+                }
+
+                GhostRenderers = this.GetComponentsInChildren<Renderer>();
+                for (int rendererIndex = 0; rendererIndex < GhostRenderers.Length; rendererIndex++)
+                {
+                    Color transparentcolor = new Color(0.38f, 0.67f, 0.85f); // GhostRenderers[rendererIndex].material.color;
+                    transparentcolor.a = (float)VisibilityLevel.Ghost / 100f;
+                    NVRHelpers.SetTransparent(GhostRenderers[rendererIndex].material, transparentcolor);
+                }
+
+                if (Colliders != null)
+                {
+                    GhostColliders = Colliders;
+                }
+
+                CurrentVisibility = VisibilityLevel.Ghost;
+            }
+            else
+            {
+                GhostRenderers = this.GetComponentsInChildren<Renderer>();
+                for (int rendererIndex = 0; rendererIndex < GhostRenderers.Length; rendererIndex++)
+                {
+                    Color transparentcolor = new Color(0.38f, 0.67f, 0.85f);// GhostRenderers[rendererIndex].material.color;
+                    transparentcolor.a = (float)VisibilityLevel.Ghost / 100f;
+                    NVRHelpers.SetTransparent(GhostRenderers[rendererIndex].material, transparentcolor);
+                }
+
+                if (Colliders != null)
+                {
+                    GhostColliders = Colliders;
+                }
+
+                CurrentVisibility = VisibilityLevel.Ghost;
+            }
+
+            CurrentHandState = HandState.Idle;
+        }
+
+        public void DeregisterInteractable(NVRInteractable interactable)
+        {
+            if (CurrentlyInteracting == interactable)
+                CurrentlyInteracting = null;
+
+            if (CurrentlyHoveringOver != null)
+                CurrentlyHoveringOver.Remove(interactable);
+        }
+
+        private void SetVisibility(VisibilityLevel visibility)
+        {
+            if (CurrentVisibility != visibility)
+            {
+                if (visibility == VisibilityLevel.Invisible)
+                {
+                    if (PhysicalController != null)
+                    {
+                        PhysicalController.Off();
+                    }
+
+                    for (int index = 0; index < GhostRenderers.Length; index++)
+                    {
+                        GhostRenderers[index].enabled = false;
+                    }
+
+                    for (int index = 0; index < GhostColliders.Length; index++)
+                    {
+                        GhostColliders[index].enabled = true;
+                    }
+                }
+
+                if (visibility == VisibilityLevel.Ghost)
+                {
+                    if (PhysicalController != null)
+                    {
+                        PhysicalController.Off();
+                    }
+
+                    for (int index = 0; index < GhostRenderers.Length; index++)
+                    {
+                        GhostRenderers[index].enabled = true;
+                    }
+
+                    for (int index = 0; index < GhostColliders.Length; index++)
+                    {
+                        GhostColliders[index].enabled = true;
+                    }
+                }
+
+                if (visibility == VisibilityLevel.Visible)
+                {
+                    if (PhysicalController != null)
+                    {
+                        PhysicalController.On();
+                    }
+
+                    for (int index = 0; index < GhostRenderers.Length; index++)
+                    {
+                        GhostRenderers[index].enabled = false;
+                    }
+
+                    for (int index = 0; index < GhostColliders.Length; index++)
+                    {
+                        GhostColliders[index].enabled = false;
+                    }
+                }
+            }
+
+            CurrentVisibility = visibility;
+        }
+
+        public void ForceGhost()
+        {
+            SetVisibility(VisibilityLevel.Ghost);
+            PhysicalController.Off();
+        }
+
+        public string GetDeviceName()
+        {
+            return Driver.GetDeviceName(this);
+        }
+
+        public Vector3 GetVelocityEstimation()
+        {
+            return Driver.GetVelocity(this);
+        }
+    }
+    
+    public enum VisibilityLevel
+    {
+        Invisible = 0,
+        Ghost = 50,
+        Visible = 80,
+    }
+
+    public enum HandState
+    {
+        Uninitialized, 
+        Idle,
+        GripDownNotInteracting,
+        GripDownInteracting,
+        GripToggleOnNotInteracting,
+        GripToggleOnInteracting,
+        GripToggleOff
+    }
+
+    public enum InteractionStyle
+    {
+        GripDownToInteract,
+        GripToggleToInteract,
+    }
+}

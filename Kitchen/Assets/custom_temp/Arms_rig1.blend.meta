@@ -1,0 +1,2514 @@
+fileFormatVersion: 2
+guid: c7384a24e7b52d949b98f81149a90721
+timeCreated: 1476683948
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: caucasian_male_1
+    100004: caucasian_male_1_Body
+    100006: clavicle_L
+    100008: clavicle_R
+    100010: deltoid_L
+    100012: deltoid_R
+    100014: f_index_01_L
+    100016: f_index_01_R
+    100018: f_index_02_L
+    100020: f_index_02_R
+    100022: f_index_03_L
+    100024: f_index_03_R
+    100026: f_middle_01_L
+    100028: f_middle_01_R
+    100030: f_middle_02_L
+    100032: f_middle_02_R
+    100034: f_middle_03_L
+    100036: f_middle_03_R
+    100038: f_pinky_01_L
+    100040: f_pinky_01_R
+    100042: f_pinky_02_L
+    100044: f_pinky_02_R
+    100046: f_pinky_03_L
+    100048: f_pinky_03_R
+    100050: f_ring_01_L
+    100052: f_ring_01_R
+    100054: f_ring_02_L
+    100056: f_ring_02_R
+    100058: f_ring_03_L
+    100060: f_ring_03_R
+    100062: forearm_L
+    100064: forearm_R
+    100066: hand_L
+    100068: hand_L_control
+    100070: hand_R
+    100072: hand_R_control
+    100074: palm_index_L
+    100076: palm_index_R
+    100078: palm_middle_L
+    100080: palm_middle_R
+    100082: palm_pinky_L
+    100084: palm_pinky_R
+    100086: palm_ring_L
+    100088: palm_ring_R
+    100090: thumb_01_L
+    100092: thumb_01_R
+    100094: thumb_02_L
+    100096: thumb_02_R
+    100098: thumb_03_L
+    100100: thumb_03_R
+    100102: upper_arm_L
+    100104: upper_arm_R
+    100106: foot_L
+    100108: foot_R
+    100110: head
+    100112: lower_leg_L
+    100114: lower_leg_R
+    100116: upper_leg_L
+    100118: upper_leg_R
+    100120: hips
+    100122: spine
+    400000: //RootNode
+    400002: caucasian_male_1
+    400004: caucasian_male_1_Body
+    400006: clavicle_L
+    400008: clavicle_R
+    400010: deltoid_L
+    400012: deltoid_R
+    400014: f_index_01_L
+    400016: f_index_01_R
+    400018: f_index_02_L
+    400020: f_index_02_R
+    400022: f_index_03_L
+    400024: f_index_03_R
+    400026: f_middle_01_L
+    400028: f_middle_01_R
+    400030: f_middle_02_L
+    400032: f_middle_02_R
+    400034: f_middle_03_L
+    400036: f_middle_03_R
+    400038: f_pinky_01_L
+    400040: f_pinky_01_R
+    400042: f_pinky_02_L
+    400044: f_pinky_02_R
+    400046: f_pinky_03_L
+    400048: f_pinky_03_R
+    400050: f_ring_01_L
+    400052: f_ring_01_R
+    400054: f_ring_02_L
+    400056: f_ring_02_R
+    400058: f_ring_03_L
+    400060: f_ring_03_R
+    400062: forearm_L
+    400064: forearm_R
+    400066: hand_L
+    400068: hand_L_control
+    400070: hand_R
+    400072: hand_R_control
+    400074: palm_index_L
+    400076: palm_index_R
+    400078: palm_middle_L
+    400080: palm_middle_R
+    400082: palm_pinky_L
+    400084: palm_pinky_R
+    400086: palm_ring_L
+    400088: palm_ring_R
+    400090: thumb_01_L
+    400092: thumb_01_R
+    400094: thumb_02_L
+    400096: thumb_02_R
+    400098: thumb_03_L
+    400100: thumb_03_R
+    400102: upper_arm_L
+    400104: upper_arm_R
+    400106: foot_L
+    400108: foot_R
+    400110: head
+    400112: lower_leg_L
+    400114: lower_leg_R
+    400116: upper_leg_L
+    400118: upper_leg_R
+    400120: hips
+    400122: spine
+    4300000: caucasian_male_1_Body
+    7400000: Default Take
+    7400002: T-Pose
+    7400004: fist
+    7400006: fist_L
+    7400008: fist_R
+    7400010: fist_both
+    7400012: hands_idle
+    7400014: point_L
+    7400016: point_R
+    7400018: point_both
+    7400020: point_L_fist_R
+    7400022: point_R_fist_L
+    9500000: //RootNode
+    13700000: caucasian_male_1_Body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 0
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 0
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fist_both
+      takeName: fist_both
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fist_L
+      takeName: fist_L
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: fist_R
+      takeName: fist_R
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: hands_idle
+      takeName: hands_idle
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: T-Pose
+      takeName: T-Pose
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: point_L
+      takeName: point_L
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: point_R
+      takeName: point_R
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: point_both
+      takeName: point_both
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: point_L_fist_R
+      takeName: point_L_fist_R
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: point_R_fist_L
+      takeName: point_R_fist_L
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: caucasian_male_1
+        weight: 1
+      - path: caucasian_male_1/hips
+        weight: 1
+      - path: caucasian_male_1/hips/spine
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_index_L/f_index_01_L/f_index_02_L/f_index_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_middle_L/f_middle_01_L/f_middle_02_L/f_middle_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_pinky_L/f_pinky_01_L/f_pinky_02_L/f_pinky_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/palm_ring_L/f_ring_01_L/f_ring_02_L/f_ring_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_L/deltoid_L/upper_arm_L/forearm_L/hand_L/thumb_01_L/thumb_02_L/thumb_03_L
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_index_R/f_index_01_R/f_index_02_R/f_index_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_middle_R/f_middle_01_R/f_middle_02_R/f_middle_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_pinky_R/f_pinky_01_R/f_pinky_02_R/f_pinky_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/palm_ring_R/f_ring_01_R/f_ring_02_R/f_ring_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/clavicle_R/deltoid_R/upper_arm_R/forearm_R/hand_R/thumb_01_R/thumb_02_R/thumb_03_R
+        weight: 1
+      - path: caucasian_male_1/hips/spine/head
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_L/lower_leg_L/foot_L
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R
+        weight: 1
+      - path: caucasian_male_1/hips/upper_leg_R/lower_leg_R/foot_R
+        weight: 1
+      - path: caucasian_male_1_Body
+        weight: 0
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_leg_L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_leg_R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lower_leg_L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: lower_leg_R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot_R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm_L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm_L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: deltoid_L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand_R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm_R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm_R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: deltoid_R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_L
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_L
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_L
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_01_L
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_02_L
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_03_L
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle_01_L
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle_02_L
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle_03_L
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring_01_L
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring_02_L
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring_03_L
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky_01_L
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky_02_L
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky_03_L
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_01_R
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_02_R
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thumb_03_R
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_01_R
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_02_R
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_index_03_R
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle_01_R
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle_02_R
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_middle_03_R
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring_01_R
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring_02_R
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_ring_03_R
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky_01_R
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky_02_R
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: f_pinky_03_R
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Arms_rig1(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: caucasian_male_1
+      position: {x: 6.667944e-10, y: 6.667944e-10, z: 0.015254477}
+      rotation: {x: 0.00000005338508, y: 0.7071068, z: 0.7071068, w: -0.00000005338508}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hips
+      position: {x: -1.4062581e-16, y: -0.000000029802322, z: 0.21170576}
+      rotation: {x: -0.7071067, y: 0.7071068, z: -0.000000092516714, w: 0.00000008940694}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine
+      position: {x: 0.030000001, y: -0.0000000022649371, z: 0}
+      rotation: {x: 0.00000008940696, y: 0.53361446, z: -0.00000017881392, w: 0.8457278}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle_L
+      position: {x: 0.0057868552, y: -0.0235341, z: -0.057225198}
+      rotation: {x: 0.4760066, y: 0.6067246, z: 0.4760066, w: 0.4227537}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: deltoid_L
+      position: {x: -0.11378383, y: 0.000000006705523, z: 0}
+      rotation: {x: -0.36564088, y: -0.21439122, z: -0.09001534, w: 0.9012438}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: upper_arm_L
+      position: {x: -0.082179956, y: 0.0000000022351743, z: 0.000000011920929}
+      rotation: {x: 0.8823011, y: 0.13408609, z: 0.026397206, w: 0.4504099}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: forearm_L
+      position: {x: -0.25918996, y: 0.00000003091991, z: 7.4505807e-10}
+      rotation: {x: -0.011930165, y: 0.009467518, z: -0.027774185, w: 0.99949825}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand_L
+      position: {x: -0.26716956, y: 0.000000040233136, z: 0}
+      rotation: {x: 0.6676334, y: 0.119768225, z: 0.06784793, w: 0.73165417}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: palm_index_L
+      position: {x: -0.03536656, y: 0.011391163, z: -0.00044245794}
+      rotation: {x: 0.18997361, y: -0.065226085, z: -0.089556955, w: 0.97551787}
+      scale: {x: 0.9999999, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: f_index_01_L
+      position: {x: -0.08171972, y: 0.000000047683717, z: -0.0000000059604646}
+      rotation: {x: 0.009627475, y: 0.082032464, z: 0.02955247, w: 0.9961449}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: f_index_02_L
+      position: {x: -0.029881274, y: -0.000000047683717, z: 0.000000011920929}
+      rotation: {x: 0.004008947, y: 0.0385938, z: 0.00058405206, w: 0.9992468}
+      scale: {x: 1, y: 0.9999998, z: 0.99999976}
+      transformModified: 1
+    - name: f_index_03_L
+      position: {x: -0.026822273, y: 0.000000059604645, z: 0}
+      rotation: {x: -0.007483226, y: 0.016337529, z: -0.0038466433, w: 0.99983114}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+      transformModified: 1
+    - name: palm_middle_L
+      position: {x: -0.03732109, y: -0.0010701179, z: -0.004647857}
+      rotation: {x: -0.0071569644, y: -0.043367486, z: 0.0011770533, w: 0.99903286}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: f_middle_01_L
+      position: {x: -0.07632923, y: -0.000000023841858, z: -0.000000047683717}
+      rotation: {x: -0.015051067, y: 0.03310379, z: 0.07677944, w: 0.99638474}
+      scale: {x: 1.0000002, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: f_middle_02_L
+      position: {x: -0.03778843, y: -0.000000011920929, z: -0.000000028125942}
+      rotation: {x: -0.0029456094, y: 0.038545754, z: -0.0022587723, w: 0.99924994}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: f_middle_03_L
+      position: {x: -0.029622538, y: -0.000000011920929, z: -0.000000008940697}
+      rotation: {x: 0.0045314073, y: -0.0031326872, z: 0.012307882, w: 0.9999091}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: palm_pinky_L
+      position: {x: -0.040320065, y: -0.022752298, z: -0.0058388147}
+      rotation: {x: 0.12012412, y: -0.0752867, z: 0.19667676, w: 0.97016513}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: f_pinky_01_L
+      position: {x: -0.058428597, y: -0.000000023841858, z: -0.000000017881394}
+      rotation: {x: -0.020716801, y: 0.058161408, z: -0.13010032, w: 0.9895767}
+      scale: {x: 1.0000001, y: 0.99999976, z: 0.99999994}
+      transformModified: 1
+    - name: f_pinky_02_L
+      position: {x: -0.02551254, y: 0.00000003576279, z: -0.000000011920929}
+      rotation: {x: -0.0042698146, y: 0.04004546, z: -0.0038761133, w: 0.9991813}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: f_pinky_03_L
+      position: {x: -0.016856378, y: 0.000000011920929, z: -0.00000003576279}
+      rotation: {x: 0.00684988, y: 0.013687115, z: 0.012085337, w: 0.99980986}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+      transformModified: 1
+    - name: palm_ring_L
+      position: {x: -0.038062073, y: -0.0136341695, z: -0.005020309}
+      rotation: {x: 0.01506144, y: -0.08189619, z: 0.06956408, w: 0.9940961}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: f_ring_01_L
+      position: {x: -0.06833877, y: 0.000000023841858, z: -0.00000005066395}
+      rotation: {x: -0.025813634, y: 0.04494018, z: 0.015978104, w: 0.9985283}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+      transformModified: 1
+    - name: f_ring_02_L
+      position: {x: -0.033369303, y: 0, z: 0.000000018626451}
+      rotation: {x: -0.004147607, y: 0.037861157, z: -0.004428331, w: 0.99926466}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: f_ring_03_L
+      position: {x: -0.028096987, y: 0, z: 0.0000000029802323}
+      rotation: {x: 0.005051024, y: -0.008380034, z: 0.025767025, w: 0.99962014}
+      scale: {x: 0.9999998, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: thumb_01_L
+      position: {x: -0.04298667, y: 0.026985466, z: -0.0012059569}
+      rotation: {x: 0.5152865, y: 0.025323302, z: -0.3863277, w: 0.7645844}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+      transformModified: 1
+    - name: thumb_02_L
+      position: {x: -0.035434734, y: 0.000000047683717, z: -0.0000000029802323}
+      rotation: {x: 0.14257635, y: 0.00713195, z: 0.032852292, w: 0.98921275}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: thumb_03_L
+      position: {x: -0.042562403, y: 0.00000007748604, z: 0.000000017881394}
+      rotation: {x: -0.009779431, y: 0.03633187, z: -0.003483797, w: 0.9992859}
+      scale: {x: 0.99999976, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: clavicle_R
+      position: {x: 0.005786859, y: 0.0235341, z: -0.057225198}
+      rotation: {x: -0.4760065, y: 0.6067247, z: -0.47600657, w: 0.42275372}
+      scale: {x: 0.9999998, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: deltoid_R
+      position: {x: -0.113783814, y: 0.000000012665987, z: 0.000000008195639}
+      rotation: {x: 0.36564097, y: -0.21439117, z: 0.09001484, w: 0.90124387}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
+      transformModified: 1
+    - name: upper_arm_R
+      position: {x: -0.082179956, y: 0.0000000063329937, z: 0.0000000014901161}
+      rotation: {x: 0.8823011, y: -0.13408603, z: 0.026397323, w: -0.4504097}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+      transformModified: 1
+    - name: forearm_R
+      position: {x: -0.25918993, y: 0.000000016577543, z: 7.4505807e-10}
+      rotation: {x: 0.011929898, y: 0.009467545, z: 0.027773958, w: 0.99949825}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand_R
+      position: {x: -0.26716962, y: -0.000000026822091, z: 0}
+      rotation: {x: -0.6676334, y: 0.119768314, z: -0.06784789, w: 0.73165417}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+      transformModified: 1
+    - name: palm_index_R
+      position: {x: -0.035366595, y: -0.011391199, z: -0.00044252948}
+      rotation: {x: -0.18997365, y: -0.065226056, z: 0.08955694, w: 0.97551787}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: f_index_01_R
+      position: {x: -0.0817197, y: 0.00000003576279, z: 0.0000000059604646}
+      rotation: {x: -0.009627595, y: 0.08203169, z: -0.029552767, w: 0.996145}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: f_index_02_R
+      position: {x: -0.029881263, y: 0.000000023841858, z: 0.00000007152558}
+      rotation: {x: -0.0040086573, y: 0.038593754, z: -0.00058335636, w: 0.9992467}
+      scale: {x: 1, y: 0.9999998, z: 0.99999976}
+      transformModified: 1
+    - name: f_index_03_R
+      position: {x: -0.02682221, y: 0.000000023841858, z: 0.000000011920929}
+      rotation: {x: 0.0074832044, y: 0.016337538, z: 0.0038466086, w: 0.9998312}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: palm_middle_R
+      position: {x: -0.037321117, y: 0.0010700822, z: -0.0046479288}
+      rotation: {x: 0.0071569323, y: -0.043367494, z: -0.001177062, w: 0.99903286}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: f_middle_01_R
+      position: {x: -0.07632919, y: -0.000000023841858, z: 0.00000001564622}
+      rotation: {x: 0.015051082, y: 0.03310381, z: -0.076779425, w: 0.99638474}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: f_middle_02_R
+      position: {x: -0.037788477, y: 0, z: -0.000000063795596}
+      rotation: {x: 0.002945671, y: 0.038545202, z: 0.0022576107, w: 0.99925005}
+      scale: {x: 1, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: f_middle_03_R
+      position: {x: -0.029622633, y: 0, z: 0.00000004172325}
+      rotation: {x: -0.004531397, y: -0.0031326804, z: -0.012307876, w: 0.9999091}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: palm_pinky_R
+      position: {x: -0.040384926, y: 0.025682582, z: -0.0049844906}
+      rotation: {x: -0.11900296, y: -0.08716357, z: -0.17406617, w: 0.97362304}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: f_pinky_01_R
+      position: {x: -0.05754241, y: 0.000000023841858, z: 0.0000000029802323}
+      rotation: {x: 0.018244106, y: 0.072038524, z: 0.10856645, w: 0.99130774}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: f_pinky_02_R
+      position: {x: -0.02551247, y: -0.000000023841858, z: 0.00000003576279}
+      rotation: {x: 0.004269819, y: 0.040043745, z: 0.0038763413, w: 0.99918133}
+      scale: {x: 0.9999998, y: 1, z: 1}
+      transformModified: 1
+    - name: f_pinky_03_R
+      position: {x: -0.016856372, y: 0, z: -0.000000029802322}
+      rotation: {x: -0.006849881, y: 0.013687014, z: -0.012085267, w: 0.99980986}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: palm_ring_R
+      position: {x: -0.038227547, y: 0.016880726, z: -0.0043227607}
+      rotation: {x: -0.026245201, y: -0.08731816, z: -0.046971, w: 0.99472636}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: f_ring_01_R
+      position: {x: -0.06793083, y: 0, z: -0.000000008940697}
+      rotation: {x: 0.035618212, y: 0.050912935, z: -0.039042495, w: 0.9973038}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: f_ring_02_R
+      position: {x: -0.03336928, y: 0, z: -0.000000043958426}
+      rotation: {x: 0.0041477447, y: 0.03785836, z: 0.0044292766, w: 0.9992647}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000001}
+      transformModified: 1
+    - name: f_ring_03_R
+      position: {x: -0.028097093, y: 0.000000011920929, z: 0.000000020861625}
+      rotation: {x: -0.0050510424, y: -0.008379985, z: -0.02576706, w: 0.99962014}
+      scale: {x: 0.99999964, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: thumb_01_R
+      position: {x: -0.04298669, y: -0.02698548, z: -0.0012060285}
+      rotation: {x: -0.51508737, y: 0.02542363, z: 0.38632143, w: 0.7647185}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: thumb_02_R
+      position: {x: -0.03543472, y: 0.000000011920929, z: 0.000000011920929}
+      rotation: {x: -0.14274946, y: 0.0071197734, z: -0.03285275, w: 0.9891879}
+      scale: {x: 0.99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb_03_R
+      position: {x: -0.042562436, y: -0.000000023841858, z: 0.000000011920929}
+      rotation: {x: 0.0097644655, y: 0.036332365, z: 0.0034781138, w: 0.999286}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999998}
+      transformModified: 1
+    - name: head
+      position: {x: 0.05999999, y: -0.0000000045298734, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: upper_leg_L
+      position: {x: -0.010000001, y: 7.54979e-10, z: 0}
+      rotation: {x: 0.051878206, y: 0.6553205, z: 0.07396399, w: 0.7499288}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: lower_leg_L
+      position: {x: -0.14142136, y: 0.000000011920929, z: -0.0000000059604646}
+      rotation: {x: -0.3402437, y: 0.057063114, z: -0.1249685, w: 0.9302478}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot_L
+      position: {x: -0.05000001, y: -0.0000000013413022, z: -1.4000001e-15}
+      rotation: {x: 0.037758414, y: -0.3493319, z: 0.9339752, w: -0.06505218}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: upper_leg_R
+      position: {x: -0.010000001, y: 7.54979e-10, z: 0}
+      rotation: {x: -0.051878083, y: 0.6553203, z: -0.07396443, w: 0.7499288}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.99999994}
+      transformModified: 1
+    - name: lower_leg_R
+      position: {x: -0.14142136, y: 0.000000011920929, z: 0.0000000059604646}
+      rotation: {x: 0.3402437, y: 0.057063103, z: 0.124968514, w: 0.93024784}
+      scale: {x: 1, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: foot_R
+      position: {x: -0.05000001, y: 0.000000006109278, z: 7.0000004e-16}
+      rotation: {x: 0.03775869, y: 0.34933242, z: 0.9339751, w: 0.065052}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: caucasian_male_1_Body
+      position: {x: 1e-16, y: 1e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: caucasian_male_1
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

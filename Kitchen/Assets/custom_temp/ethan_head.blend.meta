@@ -1,0 +1,117 @@
+fileFormatVersion: 2
+guid: 94d21d4c2a2565143acfd1e10c492432
+timeCreated: 1481181189
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: EthanBody_002
+    100004: EthanHead
+    100006: EthanHead1
+    100008: EthanJaw
+    100010: EthanLeftBlink
+    100012: EthanLeftBrow
+    100014: EthanLeftCorner
+    100016: EthanLeftEye
+    100018: EthanLeftLowerLip
+    100020: EthanLeftUpperLip
+    100022: EthanLowerLip
+    100024: EthanNeck
+    100026: EthanRightBlink
+    100028: EthanRightBrow
+    100030: EthanRightCorner
+    100032: EthanRightEye
+    100034: EthanRightLowerLip
+    100036: EthanRightUpperLip
+    100038: EthanSkeleton
+    100040: EthanUpperLip
+    400000: //RootNode
+    400002: EthanBody_002
+    400004: EthanHead
+    400006: EthanHead1
+    400008: EthanJaw
+    400010: EthanLeftBlink
+    400012: EthanLeftBrow
+    400014: EthanLeftCorner
+    400016: EthanLeftEye
+    400018: EthanLeftLowerLip
+    400020: EthanLeftUpperLip
+    400022: EthanLowerLip
+    400024: EthanNeck
+    400026: EthanRightBlink
+    400028: EthanRightBrow
+    400030: EthanRightCorner
+    400032: EthanRightEye
+    400034: EthanRightLowerLip
+    400036: EthanRightUpperLip
+    400038: EthanSkeleton
+    400040: EthanUpperLip
+    4300000: EthanBody_002
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: EthanBody_002
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
